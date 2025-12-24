@@ -1,0 +1,18 @@
+export type Weapon = {
+  name: string,
+  manufacturer: string,
+  type: string,
+  damage: number,
+  reload: number,
+  stagger: number,
+  RPM: number,
+  falloff_start: number,
+  falloff_end: number,
+  burst_count: number,
+  bullet_cost: number,
+  firemode: string,
+  max_ammo: number,
+  clip_size: number,
+  precision: number,
+  piercing: boolean,
+}
